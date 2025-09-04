@@ -18,6 +18,21 @@ This project implements an **API Gateway** for an airline flight booking backend
 - The system is deployed on **AWS**, leveraging **Auto Scaling Groups** and **Load Balancers** to handle varying traffic loads efficiently.
 - Static assets (images, files) are served from the `assets` folder.
 
+![Load Balancer Setup](assets/loadBalancerSetup.png)  
+_loadBalancerSetup.png_
+
+![Initial State without CPU Load](assets/initial-withot-any_Load_on_CPU.png)  
+_initial-without-any_Load_on_CPU.png_
+
+![Auto Scaling API Gateway](assets/auto-scaling-api-gateway.png)  
+_auto-scaling-api-gateway.png_
+
+![Monitoring Instances with Load Balancer](assets/monitoring-instances-loadBalancerEffect.png)  
+_monitoring-instances-loadBalancerEffect.png_
+
+![Auto Scaling after Termination](assets/auto-scaling-once-terminated-the%20other-instances.png)  
+_auto-scaling-once-terminated-the-other-instances.png_
+
 ## Architecture
 
 ```
@@ -61,9 +76,15 @@ Auto Scaling + Load Balancer (AWS)
 
 ## Usage
 
-1. Clone the repository:
+1.  Clone the repository:
 
-```bash
-git clone git@github.com:VIKASH1596KUMARKHARWAR/AirTicket_API_GATEWAY.git
-cd AirTicket_API_GATEWAY
-```
+        ```
+         git clone git@github.com:VIKASH1596KUMARKHARWAR/AirTicket_API_GATEWAY.git
+        cd AirTicket_API_GATEWAY
+
+        ```
+
+2.  Deploy microservices on AWS EC2 instances.
+3.  Configure the API Gateway with routes for each microservice.
+4.  Assets (images, static files) can be placed in the assets folder.
+5.  Use load balancers and auto-scaling groups to ensure high availability and scalability
