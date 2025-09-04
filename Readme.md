@@ -13,6 +13,10 @@ This project implements an **API Gateway** for an airline flight booking backend
 
 ## Related Projects / Services
 
+- [AirTicket API Gateway](https://github.com/VIKASH1596KUMARKHARWAR/AirTicket_API_GATEWAY)
+
+
+
 - [AirTicket Auth Service](https://github.com/VIKASH1596KUMARKHARWAR/Auth_Service)
 
 - [AirTicket Flight Service](https://github.com/VIKASH1596KUMARKHARWAR/FlightAndSearchService)
