@@ -9,7 +9,17 @@ FRONTEND - MIDDLE-END - BACKEND
 
 # AirTicket_API_GATEWAY
 
-This project implements an **API Gateway** for an airline flight booking backend, designed to act as a **middle layer** between the client-facing frontend and backend microservices.
+This project implements an **API Gateway** for an airline flight booking backend, designed to act as a **middle layer** between the client-facing frontend and ** backend microservices **.
+
+## Related Projects / Services
+
+- [AirTicket Auth Service](https://github.com/VIKASH1596KUMARKHARWAR/Auth_Service)
+
+- [AirTicket Flight Service](https://github.com/VIKASH1596KUMARKHARWAR/FlightAndSearchService)
+
+- [AirTicket Booking Service](https://github.com/VIKASH1596KUMARKHARWAR/AirTicket_BookingService)
+
+- [AirTicket Remainder Service](https://github.com/VIKASH1596KUMARKHARWAR/AirTicket_RemainderService)
 
 ## Overview
 
